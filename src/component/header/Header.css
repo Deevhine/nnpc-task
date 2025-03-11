@@ -1,0 +1,70 @@
+.NavBar{
+    height: 90px;
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.Menu{
+    height: 60px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+.Menu>a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Menu>a:hover{
+    color: #004010;
+}
+.ButtonHolder{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center
+}
+.button1{
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: none;
+    color: white;
+   font-weight: 400;
+    background-color: #004010;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0;
+}
+.button2{
+    height: 45px;
+   width: 50px;
+    outline: none;
+    border: none;
+    color: white;
+   font-weight: 400;
+    background-color: #004010;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    height:80px;
+    width: 100px;
+    margin-left: 80px;
+}
+.img2{
+    height: 30px;
+    width: 30px;
+}
